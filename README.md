@@ -16,7 +16,7 @@ sudo pip3 install pygments
 or 
 
 ```bash
-# sudo apt-get install python3-pygments
+sudo apt-get install python3-pygments
 ```
 
 You should now have the `pygmentize` command line utility (run `pygmentize -h`) to confirm.
@@ -24,7 +24,7 @@ You should now have the `pygmentize` command line utility (run `pygmentize -h`) 
 Now install the XF plugin:
 
 ```bash
-# sudo python3 setup.py install
+sudo python3 setup.py install
 ```
 
 XF should now appear in the list of lexers:
